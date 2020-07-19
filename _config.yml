@@ -1,9 +1,10 @@
-title: "@lucasrla/dev-notes"
+title: "dev-notes"
+description: Reference notes I wrote to myself. If you are a dev using macOS, they may be useful for you too.
+url: https://lucasrla.github.io/dev-notes/
+
 author:
   name: lucasrla
   github: lucasrla
-description: "Reference notes I wrote to myself. If you are a dev using macOS, they may be useful for you too."
-url: https://lucasrla.github.io/dev-notes/
 
 theme: jekyll-theme-minimal
 
