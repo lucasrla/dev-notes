@@ -35,10 +35,11 @@
 
       {{ content }}
     
-      {% if page.url != "/index.html" %}
+      <!-- https://stackoverflow.com/questions/28932707/check-if-current-page-is-homepage-on-jekyll -->
+      {% if page.url != "/" %}
       <br />
       <hr />
-      <p><a href="{{ "/" | absolute_url }}">&#8592; Back to home page</a>.</p>  
+      <p><a href="{{ "/" | absolute_url }}">&#8592; Back to home page</a></p>  
       {% endif %}
 
       </section>
