@@ -5,6 +5,7 @@ author:
   name: lucasrla
   github: lucasrla
 
+# https://github.com/pages-themes/minimal
 theme: jekyll-theme-minimal
 
 exclude: ["README.md"]

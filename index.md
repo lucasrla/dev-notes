@@ -1,9 +1,6 @@
----
-layout: home
-author_profile: true
----
+Reference guide for macOS setup, maintenance, and (some) troubleshooting. 
 
-macOS setup, maintenance, and troubleshooting for `python` and `node` developers.
+Likely useful for `python`, `web` and `node` developers using macOS Catalina.
 
 ## macOS Setup > Foundations
 
