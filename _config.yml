@@ -1,1 +1,13 @@
+title: "@lucasrla/dev-notes"
+author:
+  name: lucasrla
+  github: lucasrla
+description: "Reference notes I wrote to myself. If you are a dev using macOS, they may be useful for you too."
+url: https://lucasrla.github.io/dev-notes/
+
 theme: jekyll-theme-minimal
+
+exclude: ["README.md"]
+
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+markdown: GFM
