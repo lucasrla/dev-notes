@@ -1,4 +1,20 @@
-# brew casks
+---
+title: Apps available via brew cask
+nav_order: 2
+---
+
+# Apps available via brew cask
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## List of brew casks
 
 ```zsh
 brew cask install \
@@ -15,21 +31,21 @@ brew cask install \
   glance
 ```
 
-Most apps in the list above need no intro. The less famous ones are:
+Most apps in the list above need no intro. Here is some info on the less famous ones:
 
 - [Rectangle](https://rectangleapp.com/): a nice window manager that is [free and open source](https://github.com/rxhanson/Rectangle).
 - [Obsidian](https://obsidian.md): a great app for note-taking and knowledge management.
 - [Glance](https://github.com/samuelmeuli/glance): a wonderful Quick Look plugin. Free and open source.
 
 
-# Application Settings
+## Application Settings
 
-## iTerm2
+### iTerm2
 
 - Change `Preferences > Appearance > General > Theme` to `Dark`
 - Change `Preferences > Profiles > Colors > Color Presets` to `Tango Dark`
 
-## Visual Studio Code
+### Visual Studio Code
 
 - Disable telemetry. [Here is how](https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting)
 - Open the Command Palette (`CMD + SHIFT + P`), type `command line` and select `Shell Command: Install code command in PATH`
@@ -40,6 +56,6 @@ Most apps in the list above need no intro. The less famous ones are:
 
 For more information on setting up VS Code, check out [this guide](https://pycon.switowski.com/01-vscode/setup/) by Sebastian Witowski.
 
-## Notion
+### Notion
 
 - `Settings > Enable Dark Mode`
