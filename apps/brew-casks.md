@@ -1,5 +1,5 @@
 ---
-title: Apps available via brew cask
+title: brew cask
 nav_order: 2
 ---
 

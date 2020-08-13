@@ -1,5 +1,5 @@
 ---
-title: Apps only available via direct download
+title: Direct downloads
 nav_order: 3
 ---
 

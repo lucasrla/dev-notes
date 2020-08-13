@@ -1,5 +1,5 @@
 ---
-title: Apps from the macOS App Store
+title: macOS App Store
 nav_order: 1
 ---
 
