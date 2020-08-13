@@ -1,6 +1,6 @@
 # `tmux`
 
-```zsh
+```sh
 # tmux - the terminal multiplexer
 brew update && brew install tmux
 ```
@@ -18,14 +18,14 @@ Tree is a recursive directory listing command that produces a depth indented lis
 
 Install it with:
 
-```zsh
+```sh
 # tree - a recursive directory listing command that produces a depth indented listing of files
 brew update && brew install tree
 ```
 
 Here is an example of it in use:
 
-```zsh
+```sh
 tree ~ -L 1
   /Users/<USER>
   ├── Desktop
@@ -41,3 +41,11 @@ tree ~ -L 1
 ```
 
 For more information, read: http://mama.indstate.edu/users/ice/tree/. 
+
+
+# `rsync`
+
+```sh
+# rsync - a utility for efficiently transferring and synchronizing files between computers
+brew update && brew install rsync
+```
