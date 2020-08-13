@@ -47,12 +47,12 @@ Para instalar o `JRE` mais recente, navegue a https://www.java.com/en/download/m
 > Recommended Version 8 Update 251 (filesize: 80.65 MB)
 > Release date April 14, 2020 
 
-Evite instalar o `JDK` ou coisa parecida. Instale somente o mínimo necessário, isto é, só o tal `JRE`.
+Evite instalar o `JDK` ou coisa parecida. Instale somente o mínimo necessário, isto é, apenas o bendito `JRE`.
 
-Para mais informações sobre Java no macOS, consulte: https://macmagazine.uol.com.br/post/2020/02/26/problemas-ao-rodar-o-irpf-2020-no-mac-confira-as-solucoes/.
+Para mais informações sobre Java no macOS, [consulte este artigo da MacMagazine (português)](https://macmagazine.uol.com.br/post/2020/02/26/problemas-ao-rodar-o-irpf-2020-no-mac-confira-as-solucoes/).
 
 
-## More information about Java updates on the Mac
+## Java updates on the Mac
 
 Bonus read: [Everything you'll wish you didn't know about disabling Java 7 updates
 ](https://macops.ca/everything-youll-wish-you-didnt-know-about-disabling-java-7-updates/) by Tim Sutton.
