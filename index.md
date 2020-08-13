@@ -31,6 +31,8 @@ Reference guide for macOS setup. Useful for `python`, `web` and `node` developer
 ## Python
 
 - _Soon_
+<!-- - Narrated version -->
+<!-- - Commands-only (tl;dr) version -->
 <!-- - [Global packages via pipx](...) | `youtube-dl`, ... -->
 
 ## Node.js

@@ -88,8 +88,8 @@ nvm use xx.xx
 # setting a new default version
 nvm alias default xx.xx
 
-# updating `nvm`
-# (in the future, no need to run this now)
+# how to upgrade nvm (in the future, of course)
+# (btw, see: https://github.com/nvm-sh/nvm/issues/2236 and https://github.com/nvm-sh/nvm/issues/1091)
 nvm install node --reinstall-packages-from=node
 ```
 

@@ -6,7 +6,11 @@ author:
   github: lucasrla
 
 # https://github.com/pages-themes/minimal
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+search_enabled: true
 
 exclude: ["README.md"]
 

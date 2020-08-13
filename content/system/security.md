@@ -1,8 +1,6 @@
 # Disk encryption
 
-You must encrypt your disk. 
-
-Encrypt it when doing the fresh install of macOS.
+You must encrypt your disk. Do it with Apple's tools right at the beginning of your fresh installation process.
 
 
 # macOS System Settings
