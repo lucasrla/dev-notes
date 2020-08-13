@@ -32,7 +32,7 @@ brew cask install \
   glance
 ```
 
-Most apps in the list above need no intro. Here is some info on the less famous ones:
+Here is some info on the less famous apps from the list above:
 
 - [Rectangle](https://rectangleapp.com/): a nice window manager that is [free and open source](https://github.com/rxhanson/Rectangle).
 - [Obsidian](https://obsidian.md): a great app for note-taking and knowledge management.

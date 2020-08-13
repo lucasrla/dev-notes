@@ -41,7 +41,7 @@ zsh --version
 
 ## prezto
 
-Why `prezto`? According to [reddit](https://www.reddit.com/r/zsh/comments/3be1fe/what_is_the_best_alternative_to_ohmyzsh_i_am/), it is faster and more comprehensive than `oh-my-zsh`.
+Why `prezto`? [According to this reddit thread](https://www.reddit.com/r/zsh/comments/3be1fe/what_is_the_best_alternative_to_ohmyzsh_i_am/), it is faster and more comprehensive than `oh-my-zsh`.
 
 Install it with:
 
@@ -68,4 +68,4 @@ Edit `~/.zpreztorc` to:
 - Add `'git'` under `zstyle ':prezto:load' pmodule \`
 - Uncomment the line `zstyle ':prezto:module:utility' safe-ops 'yes'`
 
-For more information on `prezto`, see [https://github.com/sorin-ionescu/prezto](https://github.com/sorin-ionescu/prezto).
+For more information on `prezto`, [visit its GitHub repository](https://github.com/sorin-ionescu/prezto).

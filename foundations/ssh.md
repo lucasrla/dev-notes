@@ -66,7 +66,7 @@ Now we can type `ssh aws-ec2-instance` or `ssh cluster-master` and have everythi
 
 ## Existing keys
 
-You may also want to copy private/public keys that you have previously generated. They are pairs of files like `aws-key.pem`/`aws-key.pub` and `id_rsa`/`id_rsa.pub` that you may have in your backups. See [https://help.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys](https://help.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys).
+You may also want to copy private/public keys that you have previously generated. They are pairs of files like `aws-key.pem`/`aws-key.pub` and `id_rsa`/`id_rsa.pub` that you may have in your backups. [See this help article](https://help.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys).
 
 ```sh
 tree .ssh
@@ -104,7 +104,7 @@ ssh-keygen -lf .ssh/<KEY_FILE>.pub
 
 ## Generating new keys
 
-Simply follow the instructions from [https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
+Follow the instructions [explained here](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
 
 ```sh
 # -t is type, -b is bit size, -C is comment
@@ -115,7 +115,7 @@ During the `ssh-keygen` steps above, please create a passphrase:
 
 > With SSH keys, if someone gains access to your computer, they also gain access to every system that uses that key. To add an extra layer of security, you can add a passphrase to your SSH key.
 
-For more info, see [https://help.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases](https://help.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases).
+For more information, [read this article](https://help.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases).
 
 ## Using `ssh-agent` and `Keychain Access` to store your passphrase
 
@@ -146,9 +146,22 @@ Host *
 
 ## Appending your public key to the `authorized_keys` file on a remote server
 
-First, upload (using `scp`) the `<KEY_FILE>.pub` file to your remote server. 
+You can either use `ssh-copy-id`:
 
-Then use `cat` to append its content to `~/.ssh/authorized_keys`:
+```sh
+which ssh-copy-id
+  /usr/bin/ssh-copy-id
+
+ssh-copy-id -h
+  Usage: /usr/bin/ssh-copy-id [-h|-?|-f|-n] [-i [identity_file]] [-p port] [[-o <ssh -o options>] ...] [user@]hostname
+    -f: force mode -- copy keys without trying to check if they are already installed
+    -n: dry run    -- no keys are actually copied
+    -h|-?: print this help
+  
+# ref: https://www.ssh.com/ssh/copy-id
+```
+
+Or do it manually. By uploading (e.g. via `scp`) the `<KEY_FILE>.pub` file to your remote server and then using `cat` to append its content to `~/.ssh/authorized_keys`:
 
 ```sh
 cd ~/.ssh
@@ -163,4 +176,4 @@ cat authorized_keys
   ssh-rsa <FINGERPRINT> <COMMENTS>
 ```
 
-More information on this can be found at [https://wiki.qnap.com/wiki/SSH:_How_To_Set_Up_Authorized_Keys](https://wiki.qnap.com/wiki/SSH:_How_To_Set_Up_Authorized_Keys).
+If you need more information, [read this article](https://wiki.qnap.com/wiki/SSH:_How_To_Set_Up_Authorized_Keys).

@@ -16,7 +16,7 @@ which git
   /usr/bin/git
 ```
 
-But we want the flexibility and control over own tools, so:
+But we want the flexibility of having control over own tools, so:
 
 ```sh
 brew install git
@@ -28,7 +28,7 @@ which git
   /usr/bin/git
 ```
 
-To avoid leaking out your email from GitHub, remember to use `<USERNAME>@users.noreply.github.com`, as explained at [https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address).
+To avoid leaking out your email from GitHub, remember to use `<USERNAME>@users.noreply.github.com` as [explained here](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address).
 
 On to `~/.gitconfig`:
 
@@ -97,6 +97,6 @@ If you're cloning GitHub repositories using `HTTPS`, you can use a `credential h
 git config --global credential.helper osxkeychain
 ```
 
-The next time you clone an `HTTPS` URL that requires a password, you'll be prompted for your username and password, and to grant access to the `OSX keychain`. After you've done this, the username and password are stored in your `keychain` and you won't be required to type them in to git again. Read this guide for more details: [https://help.github.com/en/github/using-git/caching-your-github-password-in-git](https://help.github.com/en/github/using-git/caching-your-github-password-in-git).
+The next time you clone an `HTTPS` URL that requires a password, you'll be prompted for your username and password, and to grant access to the `OSX keychain`. After you've done this, the username and password are stored in your `keychain` and you won't be required to type them in to git again. [Read this guide for more details](https://help.github.com/en/github/using-git/caching-your-github-password-in-git).
 
-If you are using two-factor authentication, you must use a `personal access token` (not your password). Read this: [https://github.blog/2013-09-03-two-factor-authentication/#how-does-it-work-for-command-line-git](https://github.blog/2013-09-03-two-factor-authentication/#how-does-it-work-for-command-line-git).
+If you are using two-factor authentication, you must use a `personal access token` (not your password). [Read this for more information](https://github.blog/2013-09-03-two-factor-authentication/#how-does-it-work-for-command-line-git).

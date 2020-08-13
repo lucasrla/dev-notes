@@ -1,4 +1,23 @@
-# Safari
+---
+title: Other Settings
+parent: System Settings
+nav_order: 3
+---
+
+# Other Settings
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Default Apps
+
+### Safari
 
 Customize your toolbar to something like this: ![](settings-safari-toolbar.png)
 
@@ -16,29 +35,31 @@ Customize your toolbar to something like this: ![](settings-safari-toolbar.png)
 - Enable `Show Develop menu in menu bar`
 
 
-# TextEdit
+### TextEdit
 
 - `Preferences...` > Uncheck `Wrap to page`
 
 This will make it will wrap to window instead.
 
 
-# macOS System Settings
+## macOS System Settings
 
-`General`
+### `General`
 - `General > Appearance` to `Dark`
 - `General > Show scroll bars` to `When scrolling`
 
-`Dock`
+### `Dock`
 - Enable `Magnification` and adjust its intensity
 - Set `Position` to `Right`
 - Adjust `Size`
 
-`Mission Control`
+### `Mission Control`
 - Add Hot Corners: `Bottom Left` is `Mission Control`, `Bottom Right` is `Desktop`
 - Create Spaces 2 and 3
 
-A few more tweaks, cortesy of [Tania Rascia](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/):
+### More tweaks
+
+Here are a few more tweaks, [cortesy of Tania Rascia](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/):
 
 ```zsh
 # Show Library folder

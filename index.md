@@ -5,7 +5,7 @@ nav_exclude: true
 
 A reference guide for `python`, `web` and `node` developers setting up a new macOS Catalina machine.
 
-## Foundations
+## [Foundations](foundations/)
 
 1. [xcode-select](foundations/xcode-select.html)
 2. [brew](foundations/brew.html)
@@ -16,7 +16,7 @@ A reference guide for `python`, `web` and `node` developers setting up a new mac
 7. [gcc](foundations/gcc.html)
 8. [dotfiles](foundations/dotfiles-tweaks.html) – tweaks to `.zshrc`
 
-## Command-line Tools
+## [Command-line Tools](cli/)
 
 1. [cli tools](cli/tools.html) – `tmux`, `tree`, `rsync`
 2. [media](cli/media.html) – `ffmpeg`
@@ -27,24 +27,22 @@ A reference guide for `python`, `web` and `node` developers setting up a new mac
 2. [Apps available via brew cask](apps/brew-casks.html) – iTerm2, VS Code, etc
 3. [Apps only available via direct download](apps/direct-downloads.html) – Sonos, printer drivers, etc
 
-## System Settings
+## [System Settings](system/)
 
 1. [Security](system/security.html) – Disk encryption, Sharing, etc
-2. [Language and Keyboard](system/keyboard.html)
-3. [Look 'n' feel and default apps](system/settings.html) – Dark mode, Safari, etc
+2. [Language and Input](system/keyboard.html)
+3. [Other Settings](system/settings.html) – Dark mode, Safari, TextEdit, etc
 
-## Python
+## [Python](python/)
 
-- _Soon_
-<!-- - Narrated version -->
-<!-- - Commands-only (tl;dr) version -->
-<!-- - [Global packages via pipx](...) | `youtube-dl`, ... -->
+<!-- 1. Go to https:// ... -->
 
-## Node.js
+## [Node.js](node-js/)
 
-1. [node](node-js/node.html) – `nvm`, `npm`, `npx`, and `yarn`
-2. [Global packages via npm -g](node-js/global-packages.html)
+1. [nvm](node-js/nvm.html)
+2. [yarn](node-js/yarn.html)
+3. [Global packages](node-js/global-packages.html)
 
-## Java Runtime Environment (JRE)
+## [Java](java/)
 
-1. [java](jre/java.html)
+1. [Java Runtime Environment (JRE)](java/jre.html)

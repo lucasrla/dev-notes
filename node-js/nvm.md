@@ -1,8 +1,10 @@
-# `Node.js`
+---
+title: nvm
+parent: Node.js
+nav_order: 1
+---
 
-This section was heavily inspired by [a great guide written by Tania Rascia](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/).
-
-## `nvm`
+# nvm
 
 We will use `Node Version Manager` (`nvm`) to install `Node.js`. This allows us to easily switch between `Node` versions, which is essential. 
 
@@ -92,35 +94,3 @@ nvm alias default xx.xx
 # (btw, see: https://github.com/nvm-sh/nvm/issues/2236 and https://github.com/nvm-sh/nvm/issues/1091)
 nvm install node --reinstall-packages-from=node
 ```
-
-## yarn
-
-<del>To keep things simple, I will stick to `npm` and skip `yarn` for now. As of `2020`, it seems `npm` has largely caught up. For instance: https://iamturns.com/yarn-vs-npm-2018/. That is not to say there aren't [people that](https://dev.to/shelob9/why-i-use-yarn-not-npm-dkk) still [strongly favor](https://spin.atomicobject.com/2020/03/15/why-yarn-2020/) `yarn`.</del> 
-
-I gave up. I got burned by the dependency hell in too many projects while using `npm`. ([An example](https://github.com/Chronoblog/gatsby-theme-chronoblog/issues/54)).
-
-So here is how to install `yarn`.
-
-First, since we are using `nvm`, we must ensure that your `PATH` lists `nvm`’s shims before the version of `Node.js` installed by Homebrew.
-
-```sh
-which node
-  /Users/[USERNAME]/.nvm/versions/node/v14.4.0/bin/node
-
-echo $PATH
-# /Users/[USERNAME]/.nvm/versions/node/v14.4.0/bin should come before /usr/local/bin
-```
-
-Good. Now, install it with `brew`:
-
-```sh
-brew update && brew install yarn
-  [...]
-
-which yarn
-  /usr/local/bin/yarn
-
-yarn --version
-  1.22.4
-```
-

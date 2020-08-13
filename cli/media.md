@@ -17,7 +17,7 @@ nav_order: 2
 
 ## ffmpeg
 
-`ffmpeg` is the ultimate Swiss Army Knife of Video and Audio right on your command-line: http://ffmpeg.org.
+[`ffmpeg`](http://ffmpeg.org) is the ultimate Swiss Army Knife of Video and Audio right on your command-line.
 
 ```sh
 brew update && brew install ffmpeg

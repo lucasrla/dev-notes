@@ -1,5 +1,19 @@
+---
+title: JRE
+parent: Java
+nav_order: 1
+---
 
-# `java`
+# Java Runtime Environment
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 If you live in Brazil, you are almost obligated to have a `Java Runtime Environment` (`JRE`) to file your taxes from your desktop computer.
 
@@ -38,7 +52,7 @@ Evite instalar o `JDK` ou coisa parecida. Instale somente o mínimo necessário,
 Para mais informações sobre Java no macOS, consulte: https://macmagazine.uol.com.br/post/2020/02/26/problemas-ao-rodar-o-irpf-2020-no-mac-confira-as-solucoes/.
 
 
-## Bonus: more information on Java updates
+## More information about Java updates on the Mac
 
-Read [Everything you'll wish you didn't know about disabling Java 7 updates
+Bonus read: [Everything you'll wish you didn't know about disabling Java 7 updates
 ](https://macops.ca/everything-youll-wish-you-didnt-know-about-disabling-java-7-updates/) by Tim Sutton.
