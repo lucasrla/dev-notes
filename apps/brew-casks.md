@@ -1,5 +1,6 @@
 ---
 title: brew cask
+parent: Apps
 nav_order: 2
 ---
 

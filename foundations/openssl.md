@@ -1,8 +1,14 @@
-# `openssl`
+---
+title: openssl
+parent: Foundations
+nav_order: 5
+---
+
+# openssl
 
 [OpenSSL](https://www.openssl.org) is a dependency for several `brew` formulae, but given that Apple has `LibreSSL` by default on macOS Catalina, let's install `openssl` ourselves:
 
-```zsh
+```sh
 # openssl - for Transport Layer Security (TLS)
 brew update && brew install openssl
 ```
@@ -22,7 +28,7 @@ A few caveats regarding `openssl`:
 
 If you want to use the `openssl` we have just installed (and not Apple's `LibreSSL`) without adding it to our `PATH`, we must do something like:
 
-```zsh
+```sh
 # this is Apple's
 which openssl
   /usr/bin/openssl

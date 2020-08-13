@@ -1,5 +1,6 @@
 ---
 title: macOS App Store
+parent: Apps
 nav_order: 1
 ---
 
@@ -24,6 +25,7 @@ Search for and install the usual suspects from the macOS App Store:
 - Microsoft PowerPoint
 - Microsoft Excel
 
-And this Safari Extension:
 
-- Ghostery Lite (Safari Extension)
+## Safari Extensions
+
+- Ghostery Lite

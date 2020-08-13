@@ -1,5 +1,6 @@
 ---
-title: macOS Setup Guide
+title: Reference Guide
+nav_exclude: true
 ---
 
 A reference guide for `python`, `web` and `node` developers setting up a new macOS Catalina machine.

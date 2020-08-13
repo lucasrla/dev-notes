@@ -1,6 +1,23 @@
-# ffmpeg
+---
+title: Media
+parent: Command-line Tools
+nav_order: 2
+---
 
-`ffmpeg` is amazing. It is the ultimate Swiss Army Knife of Video and Audio right on your command-line: http://ffmpeg.org.
+# Media
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## ffmpeg
+
+`ffmpeg` is the ultimate Swiss Army Knife of Video and Audio right on your command-line: http://ffmpeg.org.
 
 ```sh
 brew update && brew install ffmpeg

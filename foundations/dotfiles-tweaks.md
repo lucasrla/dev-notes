@@ -1,4 +1,12 @@
-# Tweaks to `.zshrc`
+---
+title: dotfiles
+parent: Foundations
+nav_order: 8
+---
+
+# dotfiles
+
+## Tweaks to `.zshrc`
 
 Edit `~/.zshrc` to have the following content:
 

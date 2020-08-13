@@ -1,5 +1,6 @@
 ---
 title: Direct downloads
+parent: Apps
 nav_order: 3
 ---
 

@@ -1,8 +1,14 @@
+---
+title: gcc
+parent: Foundations
+nav_order: 7
+---
+
 # `gcc`
 
 Several languages libraries depend on gcc. 
 
-The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++, ...). See https://formulae.brew.sh/formula/gcc.
+The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++, ...). See [https://formulae.brew.sh/formula/gcc](https://formulae.brew.sh/formula/gcc).
 
 ```zsh
 brew update && brew install gcc
