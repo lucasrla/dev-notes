@@ -1,11 +1,11 @@
 ---
-title: Reference Guide
-nav_exclude: true
+title: Home
+nav_order: 1
 ---
 
 A reference guide for `python`, `web` and `node` developers setting up a new macOS Catalina machine.
 
-## [Foundations](foundations/)
+## Foundations
 
 1. [xcode-select](foundations/xcode-select.html)
 2. [brew](foundations/brew.html)
@@ -16,33 +16,33 @@ A reference guide for `python`, `web` and `node` developers setting up a new mac
 7. [gcc](foundations/gcc.html)
 8. [dotfiles](foundations/dotfiles-tweaks.html) – tweaks to `.zshrc`
 
-## [Command-line Tools](cli/)
+## Command-line Tools
 
 1. [cli tools](cli/tools.html) – `tmux`, `tree`, `rsync`
 2. [media](cli/media.html) – `ffmpeg`
 
-## [Apps](apps/)
+## Apps
 
 1. [Apps from the macOS App Store](apps/app-store.html) – 1Password, Things, Office, etc
 2. [Apps available via brew cask](apps/brew-casks.html) – iTerm2, VS Code, etc
 3. [Apps only available via direct download](apps/direct-downloads.html) – Sonos, printer drivers, etc
 
-## [System Settings](system/)
+## System Settings
 
 1. [Security](system/security.html) – Disk encryption, Sharing, etc
 2. [Language and Input](system/keyboard.html)
 3. [Other Settings](system/settings.html) – Dark mode, Safari, TextEdit, etc
 
-## [Python](python/)
+## Python
 
 <!-- 1. Go to https:// ... -->
 
-## [Node.js](node-js/)
+## Node.js
 
 1. [nvm](node-js/nvm.html)
 2. [yarn](node-js/yarn.html)
 3. [Global packages](node-js/global-packages.html)
 
-## [Java](java/)
+## Java
 
 1. [Java Runtime Environment (JRE)](java/jre.html)

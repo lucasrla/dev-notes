@@ -15,7 +15,7 @@ nav_order: 3
 
 ---
 
-## `serverless`
+## serverless
 
 > Build applications comprised of microservices that run in response to events, auto-scale for you, and only charge you when they run.
 
@@ -27,7 +27,7 @@ npm install serverless --global
 # https://www.serverless.com/framework/docs/
 ```
 
-## `gatsby-cli`
+## gatsby-cli
 
 > Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.
 

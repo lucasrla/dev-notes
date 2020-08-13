@@ -44,16 +44,16 @@ This will make it will wrap to window instead.
 
 ## macOS System Settings
 
-### `General`
+### General
 - `General > Appearance` to `Dark`
 - `General > Show scroll bars` to `When scrolling`
 
-### `Dock`
+### Dock
 - Enable `Magnification` and adjust its intensity
 - Set `Position` to `Right`
 - Adjust `Size`
 
-### `Mission Control`
+### Mission Control
 - Add Hot Corners: `Bottom Left` is `Mission Control`, `Bottom Right` is `Desktop`
 - Create Spaces 2 and 3
 

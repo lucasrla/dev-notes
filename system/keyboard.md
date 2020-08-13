@@ -8,7 +8,7 @@ nav_order: 2
 
 ## macOS System Settings
 
-### `Keyboard`
+### Keyboard
 
 - `Shortcuts`: add Switch to `Space #` using `OPTION + #`
 - `Text`: disable `Correct spelling automatically`, `Capitalize words automatically`, `Add period with double-space`, `Use smart quotes and dashes`
