@@ -35,7 +35,7 @@ which ruby
   /Users/<USER_NAME>/.rubies/ruby-2.7.1/bin/ruby
 ```
 
-## Installing Jekyll through an existing Gemfile
+## Installing Jekyll through an existing `Gemfile`
 
 Copy the following lines to a `Gemfile` inside the `my-jekyll-website` directory:
 
@@ -83,7 +83,7 @@ bundle exec jekyll serve
 # browse to http://localhost:4000
 ```
 
-## More on the github-pages gem
+## More on the `github-pages` gem
 
 You may have noticed that we did not use `gem "jekyll"` in our `Gemfile`, instead we went with `gem "github-pages", group: :jekyll_plugins`. 
 
@@ -98,9 +98,8 @@ Here is its official repository: [https://github.com/github/pages-gem](https://g
 If you are using GitHub Pages (like I am here on this website), then follow [their advice](https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll#updating-the-github-pages-gem):
 
 > Jekyll is an active open source project that is updated frequently. If the `github-pages` gem on your computer is out of date with the `github-pages` gem on the GitHub Pages server, your site may look different when built locally than when published on GitHub. To avoid this, regularly update the `github-pages` gem on your computer:
-
-```sh
-cd YOUR_PROJECT_DIR
-
-bundle update github-pages
-```
+>
+>  ```sh
+>  cd YOUR_PROJECT_DIR
+>  bundle update github-pages
+>  ```

@@ -8,7 +8,7 @@ nav_order: 1
 
 [Steve Marshall](https://stevemarshall.com/journal/why-i-use-chruby/):
 
-> chruby is essentially a very small shell script that sets a few environment variables (mostly $PATH) to point at a given install of Ruby. It also has a separate, optional, script to auto-switch ruby versions when changing directories.
+> `chruby` is essentially a very small shell script that sets a few environment variables (mostly `$PATH`) to point at a given install of Ruby. It also has a separate, optional, script to auto-switch ruby versions when changing directories.
 
 ```sh
 which ruby
