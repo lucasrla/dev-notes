@@ -2,3 +2,11 @@
 _/
 TODOs.md
 crypto.md
+
+# bundler
+vendor/
+vendor.noindex/
+bin/
+
+# jekyll
+_site/

@@ -1,5 +1,5 @@
 title: macOS Setup
-description: Reference notes I wrote to myself. If you are a dev setting up a new macOS, they may be useful for you too.
+description: Reference notes I wrote to myself. If you are a dev setting up a new Mac, they may be useful for you too.
 
 author:
   name: lucasrla
@@ -12,6 +12,6 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
 search_enabled: true
 
-exclude: ["README.md"]
+exclude: ["README.md", "TODOs.md", "vendor.noindex/", "bin/"]
 # https://help.github.com/articles/migrating-your-pages-site-from-maruku
 # markdown: GFM

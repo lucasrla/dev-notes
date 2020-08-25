@@ -3,7 +3,7 @@ title: Home
 nav_order: 1
 ---
 
-A reference guide for `python`, `web` and `node` developers setting up a new macOS Catalina machine.
+A reference guide for `python`, `javascript`, `node`, and `ruby` developers setting up a new machine with macOS Catalina.
 
 ## Foundations
 
@@ -42,6 +42,13 @@ A reference guide for `python`, `web` and `node` developers setting up a new mac
 1. [nvm](node-js/nvm.html)
 2. [yarn](node-js/yarn.html)
 3. [Global packages](node-js/global-packages.html)
+
+## Ruby
+
+1. [chruby](ruby/chruby.html)
+2. [ruby-install](ruby/ruby-install.html)
+3. [Bundler](ruby/bundler.html)
+4. [Jekyll](ruby/jekyll.html)
 
 ## Java
 
