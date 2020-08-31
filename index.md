@@ -26,6 +26,7 @@ A reference guide for `python`, `javascript`, `node`, and `ruby` developers sett
 1. [Apps from the macOS App Store](apps/app-store.html) – 1Password, Things, Office, etc
 2. [Apps available via brew cask](apps/brew-casks.html) – iTerm2, VS Code, etc
 3. [Apps only available via direct download](apps/direct-downloads.html) – Sonos, printer drivers, etc
+4. [Visual Studio Code settings](apps/vscode.html)
 
 ## System Settings
 
@@ -35,7 +36,9 @@ A reference guide for `python`, `javascript`, `node`, and `ruby` developers sett
 
 ## Python
 
-<!-- 1. Go to https:// ... -->
+1. [Apple defaults](python/defaults.html)
+2. [My Python setup](python/setup.html)
+3. [pipx apps](python/pipx-apps.html) – youtube-dl, datasette, etc
 
 ## Node.js
 

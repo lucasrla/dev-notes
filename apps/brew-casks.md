@@ -17,7 +17,7 @@ nav_order: 2
 
 ## List of brew casks
 
-```zsh
+```sh
 brew cask install \
   appcleaner \
   the-unarchiver \
@@ -46,17 +46,10 @@ Here is some info on the less famous apps from the list above:
 - Change `Preferences > Appearance > General > Theme` to `Dark`
 - Change `Preferences > Profiles > Colors > Color Presets` to `Tango Dark`
 
-### Visual Studio Code
-
-- Disable telemetry. [Here is how](https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting)
-- Open the Command Palette (`CMD + SHIFT + P`), type `command line` and select `Shell Command: Install code command in PATH`
-- Switch to the `Monokai Dimmed` theme. Do it from `Code > Preferences > Color Theme` (or simply by typing `CMD + K + T`)
-- Install support to `python`, `docker`, `javascript` from the welcome screen
-- Install `html`, `css` and `yaml` support as well
-- Install `Highlight Matching Tag`. [Here is the link to the extension](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
-
-For more information on setting up VS Code, check out [this guide](https://pycon.switowski.com/01-vscode/setup/) by Sebastian Witowski.
-
 ### Notion
 
 - `Settings > Enable Dark Mode`
+
+### VS Code
+
+Check out the page dedicated to the [Visual Studio Code settings](vscode.html).
