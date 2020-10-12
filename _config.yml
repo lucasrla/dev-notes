@@ -5,10 +5,9 @@ author:
   name: lucasrla
   github: lucasrla
 
-# https://github.com/pages-themes/minimal
-# theme: jekyll-theme-minimal
-
-remote_theme: pmarsceill/just-the-docs
+# pinning the version to v0.3.1
+# v0.3.2 introduced issues with Liquid `sort` in `_includes/nav.html`
+remote_theme: pmarsceill/just-the-docs@v0.3.1
 color_scheme: "dark"
 search_enabled: true
 

@@ -3,7 +3,7 @@ title: Index
 nav_order: 1
 ---
 
-A reference guide for `python`, `javascript`, `node`, and `ruby` developers setting up a new machine with macOS Catalina.
+A reference guide for developers setting up a new machine with macOS Catalina.
 
 ## Foundations
 
@@ -56,3 +56,9 @@ A reference guide for `python`, `javascript`, `node`, and `ruby` developers sett
 ## Java
 
 1. [Java Runtime Environment (JRE)](java/jre.html)
+
+## Wolfram Language
+
+1. [Wolfram Engine](wolfram-language/engine.html)
+2. [wolframscript](wolfram-language/wolframscript.html)
+3. [Wolfram Language for Jupyter](wolfram-language/wolfram-language-for-jupyter.html)
