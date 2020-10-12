@@ -59,6 +59,5 @@ A reference guide for developers setting up a new machine with macOS Catalina.
 
 ## Wolfram Language
 
-1. [Wolfram Engine](wolfram-language/engine.html)
-2. [wolframscript](wolfram-language/wolframscript.html)
-3. [Wolfram Language for Jupyter](wolfram-language/wolfram-language-for-jupyter.html)
+1. [Wolfram Engine](wolfram-language/engine.html) – and `wolframscript`
+2. [Wolfram Language for Jupyter](wolfram-language/wolfram-language-for-jupyter.html)
