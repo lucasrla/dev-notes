@@ -36,42 +36,73 @@ On the Mac, access settings by pressing `CMD` + `,`:
 
 Tip: type `@modified` in the Search bar to see all settings that were modified.
 
-## Extensions
+## List of Extensions
 
 Quick keyboard access via `CMD` + `SHIFT` + `X`. Here is a list the ones I have installed:
 
+### General
+
 - [Python `ms-python.python`](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Liquid](https://marketplace.visualstudio.com/items?itemName=sissel.shopify-liquid) – which [will soon](https://github.com/panoply/vscode-liquid/issues/56) become [Liquify](https://liquify.dev/)
+
+### Formatting and linting
+
 - [Prettier `esbenp.prettier-vscode`](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) – official project website is [here](https://prettier.io)
 - [ESLint `dbaeumer.vscode-eslint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer) – official project website is [here](https://eslint.org)
-<!-- - [HTML CSS Support `ecmel.vscode-html-css`](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) -->
-- [Highlight Matching Tag `vincaslt.highlight-matching-tag`](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
-- [MDX `silvenon.mdx`](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
+
+> Note: Prettier can be too naïve and mess up Markdown and HTML with [Jekyll's Liquid tags](https://github.com/panoply/vscode-liquid/issues/34). The solution is to disable it in `markdown` and `html` files.
+
+### Config file formats
+
 - [YAML `redhat.vscode-yaml`](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 - [DotENV `mikestead.dotenv`](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
-- [MDX Preview `xyc.vscode-mdx-preview`](https://marketplace.visualstudio.com/items?itemName=xyc.vscode-mdx-preview)
 - [systemd `coolbear.systemd-unit-file`](https://marketplace.visualstudio.com/items?itemName=coolbear.systemd-unit-file)
+
+### MDX
+
+- [MDX `silvenon.mdx`](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
+- [MDX Preview `xyc.vscode-mdx-preview`](https://marketplace.visualstudio.com/items?itemName=xyc.vscode-mdx-preview)
+
+### Git
+
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+### HTML
+
+- [Highlight Matching Tag `vincaslt.highlight-matching-tag`](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
+
+### Markdown and Note-taking
+
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [Markdown Notes](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
+- [Markdown Links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links)
+
+> Credit: [FOAM's Recommended Extensions](https://foambubble.github.io/foam/recommended-extensions).
 
 ## Global `settings.json`
 
-Here are the contents of my `$HOME/Library/Application Support/Code/User/settings.json`:
+Here are the contents of my `$HOME/Library/Application\ Support/Code/User/settings.json`:
 
 ```json
 {
   "telemetry.enableTelemetry": false,
   "workbench.colorTheme": "Monokai Dimmed",
-  "python.pythonPath": "/Users/<USER_NAME>/.pyenv/shims/python",
+  "python.pythonPath": "$HOME/.pyenv/shims/python",
   "python.formatting.provider": "black",
   "editor.formatOnSave": true,
   "python.showStartPage": false,
-  "editor.wordWrap": "bounded",
   "editor.tabSize": 2,
-  "prettier.disableLanguages": ["markdown"]
+  "prettier.disableLanguages": [
+    "markdown",
+    "html"
+  ],
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "editor.wordWrap": "bounded",
+  "liquid.format": true
 }
 ```
 
 By the way, there are three locations/scopes for `settings.json`: User Preferences (Global, the one above), in Folder, and in Workspace. [Read this article for more details](https://supunkavinda.blog/vscode-editing-settings-json).
-
-To access 
 
 ---
 
