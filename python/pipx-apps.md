@@ -29,6 +29,7 @@ Here is the list of Python apps that I have installed via `pipx`:
 - [glances](https://nicolargo.github.io/glances/): Glances is a cross-platform system monitoring tool written in Python
 - [datasette](https://github.com/simonw/datasette): An open source multi-tool for exploring and publishing data
 - [pocket-to-sqlite](https://github.com/dogsheep/pocket-to-sqlite): Create a SQLite database containing data from your Pocket account
+- [magic-wormhole](https://github.com/warner/magic-wormhole): Get things from one computer to another, safely (h/t [@patio11](https://twitter.com/patio11/status/1317656122937856003))
 
 After your `pipx` setup is ready, it is trivial to install any Python application:
 
