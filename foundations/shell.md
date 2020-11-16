@@ -63,9 +63,39 @@ Create `~/.zshrc` and add the following line to it:
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 ```
 
-Edit `~/.zpreztorc` to:
+Edit `~/.zpreztorc` to have:
 
-- Add `'git'` under `zstyle ':prezto:load' pmodule \`
-- Uncomment the line `zstyle ':prezto:module:utility' safe-ops 'yes'`
+```sh
+# Set the Prezto modules to load (browse modules).
+# The order matters.
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'completion' \
+  'history-substring-search' \
+  'prompt' \
+  'git'
+
+# Check out https://github.com/sorin-ionescu/prezto/tree/master/modules 
+# for more details on each module
+```
+
+Also, uncomment the line `zstyle ':prezto:module:utility' safe-ops 'yes'` to have `cp`,`ln`, `mv` and `rm` [aliased to their interactive variants](https://github.com/sorin-ionescu/prezto/tree/master/modules/utility#safe-ops):
+
+```sh
+#
+# Utility
+#
+
+# Enabled safe options. This aliases cp, ln, mv and rm so that they prompt
+# before deleting or overwriting files. Set to 'no' to disable this safer
+# behavior.
+zstyle ':prezto:module:utility' safe-ops 'yes'
+```
 
 For more information on `prezto`, [visit its GitHub repository](https://github.com/sorin-ionescu/prezto).
