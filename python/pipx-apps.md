@@ -73,7 +73,7 @@ pipx upgrade youtube-dl
 
 ## jupyterlab
 
-Additionally, we will also install `jupyterlab` via `pipx`. Read [python-on-macos/jupyter](https://lucasrla.github.io/python-on-macos/jupyter/index.html) for the details.
+Additionally, we will also install `jupyterlab` via `pipx`. Read [python-on-macos/jupyter](https://lucasrla.github.io/python-on-macos/jupyter/) for the details.
 
 
 ## poetry
